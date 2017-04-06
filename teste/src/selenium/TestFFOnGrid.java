@@ -21,7 +21,7 @@ public class TestFFOnGrid {
 		DesiredCapabilities cap=  DesiredCapabilities.chrome();
 		cap.setPlatform(Platform.WIN10);
 		cap.setBrowserName("chrome");
-		String url= "http://10.111.42.173:5566";
+		String url= "http://localhost:4444";
 		WebDriver driver= new ChromeDriver();
 		driver.get(url);
 		driver.get("http://www.google.com");
